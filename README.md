@@ -16,7 +16,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can view the live deployment of this project at [`https://goindiastocks-assignment-devanshsk.vercel.app/`]("https://goindiastocks-assignment-devanshsk.vercel.app/").
+You can view the live deployment of this project at [`https://goindiastocks-assignment-devanshsk.vercel.app/`](https://goindiastocks-assignment-devanshsk.vercel.app/).
 
 This project uses [`shadcn-ui`](https://ui.shadcn.com/) as a UI library which works quite well with TailwindCSS.
 
