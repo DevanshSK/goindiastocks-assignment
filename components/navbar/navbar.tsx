@@ -5,8 +5,7 @@ import {
     SheetTrigger
 } from "@/components/ui/sheet"
 import Sidebar from "../sidebar/sidebar"
-import Link from "next/link"
-import { Button } from "../ui/button"
+import { TabsList, TabsTrigger } from "../ui/tabs"
 
 const Navbar = () => {
     return (
@@ -21,13 +20,11 @@ const Navbar = () => {
             </Sheet>
 
             {/* Navbar Routes */}
-            <div className="flex gap-x-1 md:gap-x-2 items-center ml-auto">
-                <Link href="/forum">
-                    <Button variant="link" size={"sm"}>Discussion Forum</Button>
-                </Link>
-                <Link href="/stories">
-                    <Button variant="link" size={"sm"}>Market Stories</Button>
-                </Link>
+            <div className="md:hidden flex gap-x-1 md:gap-x-2 items-center ml-auto">
+                <TabsList>
+                    <TabsTrigger value="forum">Discussion</TabsTrigger>
+                    <TabsTrigger value="stories">Market Stories</TabsTrigger>
+                </TabsList>
             </div>
         </div>
     )

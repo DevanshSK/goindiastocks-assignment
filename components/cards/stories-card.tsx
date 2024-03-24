@@ -1,8 +1,6 @@
 import {
     Card,
-    CardContent,
     CardDescription,
-    CardFooter,
     CardHeader,
     CardTitle,
 } from "@/components/ui/card";
@@ -20,7 +18,7 @@ interface Props {
 const StoriesCard = ({ data }: Props) => {
     const { title, description, image } = data;
     return (
-        <Card className="mb-3 rounded-lg overflow-hidden mr-4">
+        <Card className="mb-3 rounded-lg overflow-hidden mr-4 max-w-prose">
             <CardHeader className="p-0 pb-6">
                 <div className="w-full aspect-video relative">
                     Image Card

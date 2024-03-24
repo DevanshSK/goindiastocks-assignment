@@ -2,10 +2,8 @@ import { Heart, Eye, MessageSquare, Share2} from "lucide-react";
 import {
     Card,
     CardContent,
-    CardDescription,
     CardFooter,
     CardHeader,
-    CardTitle,
 } from "@/components/ui/card"
 import {
     Avatar,
